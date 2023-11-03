@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.searchBar {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 50%;
+  height: 30px;
+  margin: 30px;
+  @media (max-width: 1000px) {
+    width: 75%;
+  }
+}
+.list {
+  margin: auto;
+  margin-top: 30px;
+  width: fit-content;
+  padding: 30px;
+  border: 2px dotted black;
+  border-radius: 15px;
+}
+.item {
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
